@@ -1,0 +1,166 @@
+.woocommerce-checkout-review-order-table input[type=radio].shipping_method {
+    display: inline-block !important;
+}
+
+.woocommerce_shipany_ecs_asia_enable_locker_list {
+	cursor: not-allowed !important;
+	pointer-events: none !important;
+  }
+  
+/* .shipany-rest {
+	display:none;
+} */
+
+.shipany-enable-locker {
+	display:none;
+}
+
+.shipany-enable-locker-2::placeholder {
+	color:#b5b5b5;
+	font-size: 12px;
+	
+}
+
+.wc_shipany_error,
+.wc_shipany_delete #shipany_delete_label,
+.wc_shipany_delete #pr_shipany_dp_delete_label {
+	color: #a00;
+}
+
+.manage-column.column-shipany_label_created {
+	width: 55px !important;
+}
+
+span.wc_shipany_delete,
+span.wc_shipany_error {
+	float:right;
+}
+
+ul.wc_shipany_error{
+	list-style-type: disc;
+	padding-left:20px;
+}
+
+.shipany_connection_succeeded {
+	color: #008000;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.shipany_connection_error {
+	color: #a00;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#shipany_label_created {
+	width:7%;
+	/*text-align:center*/
+}
+
+#shipany-optin-notice {
+	padding: 8px 15px;
+}
+
+#shipany_create_order {
+	float: right;
+}
+
+#shipany_order_items_table a.shipany_order_remove_item {
+	outline: 0;
+	box-shadow: 0 0 0 transparent;
+}
+#shipany_order_items_table a.shipany_order_remove_item[disabled] {
+	color: #777;
+	pointer-events: none;
+}
+
+#shipany_order_gen_label_message,
+#shipany_reset_order,
+#shipany_dp_error {
+	display: none;
+}
+
+#shipany_dp_error {
+    color: red;
+}
+
+#woocommerce-shipment-shipany-label,
+#woocommerce-shipany-dp-order {
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(50%,rgb(255, 255, 255)),to(rgba(255, 255, 255)));
+	/* background-image: linear-gradient(rgb(255, 17, 0) 50%,rgba(255,204,0,0)); */
+	background-size: auto 36px;
+	background-repeat:repeat-x;
+}
+
+
+.shipany-total-packages #pr_shipany_total_packages {
+  width: 100px !important;
+  margin-top: -7px;
+  margin-left: 5px;
+}
+
+p.shipany-total-packages > label {
+  padding-bottom: 10px !important;
+} 
+
+.package_header_field,
+.package_item_field {
+  display: inline-block;
+  width: 45px !important;
+}
+
+.package_header_field.first,
+.package_item_field.first {
+  width: 55px !important;
+}
+
+.package_item input {
+  width: 40px !important;
+}
+
+button.button-primary.button-save-form.tooltip {
+	position: relative;
+}
+
+button.button-primary.button-save-form.tooltip::before {
+	background-color: #a7cedc;
+	border: 1px solid #888;
+	border-radius: 2px;
+	color: #000;
+	content: attr(data-title);
+	display: none;
+	font-family: sans-serif;
+	font-size: 10px;
+	padding: 2px 5px;
+	position: absolute;
+	top: -50px;
+	z-index: 1;
+	white-space: pre-wrap;
+}
+
+button.button-primary.button-save-form.tooltip:hover::before {
+	display: block;
+}
+
+.tooltip {
+	position: relative;
+}
+
+.tooltip::before {
+	background-color: #a7cedc;
+	border: 1px solid #888;
+	border-radius: 2px;
+	color: #000;
+	content: attr(data-title);
+	display: none;
+	font-family: sans-serif;
+	padding: 2px 5px;
+	position: absolute;
+	top: -40px;
+	z-index: 1;
+}
+
+.tooltip:hover::before {
+	display: block;
+}

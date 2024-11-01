@@ -1,0 +1,868 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: shipany\n"
+"POT-Creation-Date: 2023-05-09 18:12+0800\n"
+"PO-Revision-Date: 2023-06-16 10:28+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_HK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: assets/js/shipany-setting.js:371
+#: includes/class-shipany-wc-method-ecs-asia.php:450
+msgid "Refresh Sender Address"
+msgstr "刷新寄件人地址"
+
+#: includes/REST_API/SHIPANY_Asia/Client.php:99
+#: includes/shipany-api/class-shipany-api-ecs-asia.php:473
+#: includes/shipany-api/class-shipany-api-ecs-asia.php:488
+#, php-format
+msgid "Failed to create ShipAny order: %s"
+msgstr "無法創建 ShipAny 訂單：%s"
+
+#: includes/REST_API/SHIPANY_Asia/Client.php:238
+msgid "Status does not exist!"
+msgstr "狀態不存在！"
+
+#: includes/REST_API/SHIPANY_Asia/Item_Info.php:230
+msgid "Shipment \"Order ID\" is empty!"
+msgstr "運單的訂單編號為空！"
+
+#: includes/REST_API/SHIPANY_Asia/Item_Info.php:240
+msgid "Shipment \"Description\" is empty!"
+msgstr "運單的描述為空！"
+
+#: includes/REST_API/SHIPANY_Asia/Item_Info.php:245
+#: includes/shipany-api/class-shipany-api-rest-label.php:143
+msgid "Order \"Weight\" is empty!"
+msgstr "訂單的重量為空！"
+
+#: includes/REST_API/SHIPANY_Asia/Item_Info.php:248
+msgid "Order \"Weight\" must be a positive number"
+msgstr "訂單的重量必須為正數"
+
+#: includes/REST_API/SHIPANY_Asia/Item_Info.php:269
+msgid "\"Product\" is empty!"
+msgstr "產品為空！"
+
+#: includes/REST_API/SHIPANY_Asia/Item_Info.php:276
+msgid "Shipment \"Value\" is empty!"
+msgstr "運單總值為空！"
+
+#: includes/REST_API/SHIPANY_Asia/Item_Info.php:279
+msgid "The order \"value\" must be a number"
+msgstr "訂單總值必須為數字"
+
+#: includes/REST_API/SHIPANY_Asia/Item_Info.php:288
+#: includes/shipany-api/class-shipany-api-rest-label.php:154
+msgid "Shop \"Currency\" is empty!"
+msgstr "店舖貨幣為空！"
+
+#: includes/REST_API/SHIPANY_Asia/Item_Info.php:354
+#: includes/REST_API/SHIPANY_Asia/Item_Info.php:361
+#: includes/REST_API/SHIPANY_Asia/Item_Info.php:368
+msgid "Recipient is empty!"
+msgstr "收件人為空！"
+
+#: includes/REST_API/SHIPANY_Asia/Item_Info.php:386
+#: includes/shipany-api/class-shipany-api-rest-label.php:159
+msgid "Shipping \"Address 1\" is empty!"
+msgstr "收件人地址為空！"
+
+#: includes/REST_API/SHIPANY_Asia/Item_Info.php:396
+msgid "Shipping \"Postcode\" is empty!"
+msgstr "運送郵政編碼為空！"
+
+#: includes/REST_API/SHIPANY_Asia/Item_Info.php:405
+#: includes/shipany-api/class-shipany-api-rest-label.php:167
+msgid "Shipping \"Country\" is empty!"
+msgstr "運送國家為空！"
+
+#: includes/REST_API/SHIPANY_Asia/Item_Info.php:530
+msgid "Item \"Product ID\" is empty!"
+msgstr "商品中的\"產品編號\"為空！"
+
+#: includes/REST_API/SHIPANY_Asia/Item_Info.php:533
+msgid "Item \"Product SKU\" is empty!"
+msgstr "商品中的\"產品SKU\"為空！"
+
+#: includes/REST_API/SHIPANY_Asia/Item_Info.php:555
+msgid "Item quantity must be more than 1"
+msgstr "商品數量必須大於 1"
+
+#: includes/Utils/Args_Parser.php:58
+#, php-format
+msgid "Please specify a \"%s\" argument"
+msgstr "請指定一個\"%s\"參數"
+
+#: includes/abstract-shipany-wc-order.php:602
+msgid "Download ShipAny Waybill"
+msgstr "下載 ShipAny 運單標籤"
+
+#: includes/abstract-shipany-wc-order.php:603
+#: includes/abstract-shipany-wc-order.php:1092
+#: includes/abstract-shipany-wc-order.php:2041
+msgid "Create ShipAny Order"
+msgstr "創建 ShipAny 訂單"
+
+#: includes/abstract-shipany-wc-order.php:1093
+#: includes/abstract-shipany-wc-order.php:1135
+msgid "Download Commercial Invoice"
+msgstr "下載報關附件"
+
+#: includes/abstract-shipany-wc-order.php:1118
+#: includes/abstract-shipany-wc-order.php:1125
+#: includes/abstract-shipany-wc-order.php:1132
+#: includes/abstract-shipany-wc-order.php:1589
+#: includes/abstract-shipany-wc-order.php:1595
+#: includes/abstract-shipany-wc-order.php:1598
+#: includes/abstract-shipany-wc-order.php:1600
+#: includes/abstract-shipany-wc-order.php:1873
+#: includes/abstract-shipany-wc-order.php:1936
+msgid "Download Waybill Label"
+msgstr "下載運單標籤"
+
+#: includes/abstract-shipany-wc-order.php:1143
+#: includes/abstract-shipany-wc-order.php:1149
+#: includes/abstract-shipany-wc-order.php:1157
+#: includes/abstract-shipany-wc-order.php:1608
+#: includes/abstract-shipany-wc-order.php:1614
+#: includes/abstract-shipany-wc-order.php:1620
+msgid "Send Pickup Request"
+msgstr "發送取件請求"
+
+#: includes/abstract-shipany-wc-order.php:1195
+#: includes/abstract-shipany-wc-order.php:1205
+#: includes/abstract-shipany-wc-order.php:1651
+#: includes/abstract-shipany-wc-order.php:1661
+msgid "Courier selected:"
+msgstr "已選物流服務："
+
+#: includes/abstract-shipany-wc-order.php:1216
+#: includes/abstract-shipany-wc-order.php:1225
+msgid "Courier Additional Service:"
+msgstr "速遞公司額外服務："
+
+#: includes/abstract-shipany-wc-order.php:1237
+#: includes/abstract-shipany-wc-order.php:1244
+#, fuzzy
+msgid "Tunnel Options:"
+msgstr "隧道選項："
+
+#: includes/abstract-shipany-wc-order.php:1259
+#: includes/abstract-shipany-wc-order.php:1266
+msgid "Additional Requirements:"
+msgstr "其他要求："
+
+#: includes/abstract-shipany-wc-order.php:1284
+#: includes/abstract-shipany-wc-order.php:1432
+#: includes/abstract-shipany-wc-order.php:1441
+msgid "Shipping Service:"
+msgstr "送貨服務："
+
+#: includes/abstract-shipany-wc-order.php:1460
+#: includes/abstract-shipany-wc-order.php:1467
+msgid "Paid By Receiver: "
+msgstr "到付："
+
+#: includes/abstract-shipany-wc-order.php:1483
+#: includes/abstract-shipany-wc-order.php:1497
+#: includes/abstract-shipany-wc-order.php:1512
+msgid "Temperature type:"
+msgstr "溫度段："
+
+#: includes/abstract-shipany-wc-order.php:1487
+#: includes/class-shipany-wc-method-ecs-asia.php:237
+msgid "Air Conditioned (17°C to 22°C)"
+msgstr "恆溫 (17°C - 22°C)"
+
+#: includes/abstract-shipany-wc-order.php:1488
+#: includes/abstract-shipany-wc-order.php:1502
+#: includes/class-shipany-wc-method-ecs-asia.php:238
+msgid "Chilled (0°C to 4°C)"
+msgstr "冷藏 (0°C 至 4°C)"
+
+#: includes/abstract-shipany-wc-order.php:1489
+#: includes/abstract-shipany-wc-order.php:1503
+#: includes/class-shipany-wc-method-ecs-asia.php:239
+msgid "Frozen (-18°C to -15°C)"
+msgstr "冷凍 (-18°C 至 -15°C)"
+
+#: includes/abstract-shipany-wc-order.php:1501
+#: includes/abstract-shipany-wc-order.php:1515
+#: includes/class-shipany-wc-method-ecs-asia.php:337
+msgid "Normal"
+msgstr "常溫"
+
+msgid "Document"
+msgstr "文件"
+
+#: includes/abstract-shipany-wc-order.php:1525
+#: includes/abstract-shipany-wc-order.php:1535
+#: includes/abstract-shipany-wc-order.php:1673
+#, php-format
+msgid "Estimated shipment weight (%s) based on items ordered: "
+msgstr "根據訂購的貨品估計的裝運重量 (%s)："
+
+#: includes/abstract-shipany-wc-order.php:1571
+#: includes/abstract-shipany-wc-order.php:1703
+msgid "There is no courier service available for the destination country/region!"
+msgstr "目的地國家/地區並沒有可用的物流服務！"
+
+#: includes/abstract-shipany-wc-order.php:1581
+#: includes/abstract-shipany-wc-order.php:1583
+msgid "Create ShipAny Order (from draft)"
+msgstr "創建 ShipAny 訂單（從草稿）"
+
+#: includes/abstract-shipany-wc-order.php:1935
+#: includes/abstract-shipany-wc-order.php:2038
+msgid ""
+"Your waybill label is ready for download. Click the \"Download Waybill Label\" button above."
+msgstr "您的運單標籤已準備好，請單擊上方的\"下載運單標籤\"按鈕下載。"
+
+#: includes/abstract-shipany-wc-order.php:2921
+#, php-format
+msgid "Order #%s: waybill label created"
+msgstr "訂單 #%s：運單標籤已生成"
+
+#: includes/abstract-shipany-wc-order.php:2935
+#, php-format
+msgid "Order #%s: %s"
+msgstr "訂單 #%s：%s"
+
+#: includes/abstract-shipany-wc-order.php:2957
+#, php-format
+msgid "Bulk labels file created - %sdownload file%s"
+msgstr "運單標籤（合併）已生成 - %s下載%s"
+
+#: includes/abstract-shipany-wc-order.php:2963
+msgid "Failed to create waybill labels (merged). Please download them individually."
+msgstr "無法生成合併的運單標籤，請單獨下載。"
+
+#: includes/abstract-shipany-wc-order.php:3012
+msgid "There are no files to merge."
+msgstr "沒有需要合併的文件。"
+
+#: includes/abstract-shipany-wc-order.php:3018
+msgid "The first file is empty."
+msgstr "第一個文件是空的。"
+
+#: includes/abstract-shipany-wc-order.php:3024
+msgid "File format is not supported."
+msgstr "檔案格式不支援。"
+
+#: includes/abstract-shipany-wc-order.php:3076
+msgid "There is currently no waybill label to download. Please try again later."
+msgstr "當前沒有可下載的運單標籤，請稍候再試。"
+
+#: includes/abstract-shipany-wc-order.php:3096
+#: includes/class-shipany-wc-order-ecs-asia.php:708
+msgid "Download failed - waybill label is either invalid or missing. Please try again later."
+msgstr "下載失敗 - 運單標籤似乎無效或已丟失，請稍後再試。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:28
+msgid "ShipAny"
+msgstr "ShipAny"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:183
+msgid "Products not displaying - "
+msgstr "產品未展示 - "
+
+#: includes/class-shipany-wc-method-ecs-asia.php:191
+#: includes/class-shipany-wc-method-ecs-asia.php:291
+msgid "API Settings"
+msgstr "API 設定"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:193
+#: includes/class-shipany-wc-method-ecs-asia.php:293
+msgid "You need to have a ShipAny account before you can complete the setup. No account? "
+msgstr "您需要先在 ShipAny 登記帳戶才能完成這裡的設定。還沒有帳戶？"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:197
+#: includes/class-shipany-wc-method-ecs-asia.php:297
+msgid "Region"
+msgstr "地區"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:199
+#: includes/class-shipany-wc-method-ecs-asia.php:299
+msgid "Please select region."
+msgstr "請選擇地區。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:206
+#: includes/class-shipany-wc-method-ecs-asia.php:306
+msgid "API Token"
+msgstr "API 密鑰"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:208
+#: includes/class-shipany-wc-method-ecs-asia.php:308
+msgid "You can find your API token in Account page after logging in ShipAny portal."
+msgstr "您可以在 ShipAny 後台的帳戶頁面找到您的 API 密鑰。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:214
+#: includes/class-shipany-wc-method-ecs-asia.php:314
+#: shipany-woocommerce.php:485 shipany-woocommerce.php:494
+msgid "Test Connection"
+msgstr "測試連接"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:219
+#: includes/class-shipany-wc-method-ecs-asia.php:319
+msgid "Click the button for testing the connection."
+msgstr "按下按鈕以測試連接。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:223
+#: includes/class-shipany-wc-method-ecs-asia.php:323
+msgid "Default Courier"
+msgstr "默認物流公司"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:225
+#: includes/class-shipany-wc-method-ecs-asia.php:325
+msgid "Please select the default courier. You should find here a list of couriers available for your account after you input the API token above and save."
+msgstr "請選擇默認物流公司。如您在這裡找不到您所需要的物流公司，請確認您已輸入 API 密鑰並保存，然後再試。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:232
+#: includes/class-shipany-wc-method-ecs-asia.php:332
+msgid "Default Temperature Type"
+msgstr "默認溫度段"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:234
+#: includes/class-shipany-wc-method-ecs-asia.php:334
+msgid "Please select the default temperature type (if you are not using a cold chain service as your default courier, please leave it as \"Normal\")."
+msgstr "請選擇默認溫度類型（如您的默認物流公司並不支援冷鏈服務，請選擇\"常溫\"）"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:244
+#: includes/class-shipany-wc-method-ecs-asia.php:252
+#: includes/class-shipany-wc-method-ecs-asia.php:342
+msgid "Enable ShipAny Order Auto-creation"
+msgstr "自動創建 ShipAny 訂單"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:248
+#: includes/class-shipany-wc-method-ecs-asia.php:256
+#: includes/class-shipany-wc-method-ecs-asia.php:346
+msgid "Enable this if you want to create a ShipAny Order automatically as soon as a WooCommerce order is created"
+msgstr "如您想為每張新生成的 WooCommerce 訂單自動創建 ShipAny 訂單，請啟用此功能"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:260
+#: includes/class-shipany-wc-method-ecs-asia.php:350
+msgid "Write tracking info to Order Notes"
+msgstr "將運單追蹤資訊寫入訂單備註"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:264
+#: includes/class-shipany-wc-method-ecs-asia.php:354
+msgid ""
+"Enable this if you want to add shipment tracking info to WooCommerce order notes "
+"notes"
+msgstr "如您想將運單追蹤資訊寫入訂單備註，請在此處打勾。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:268
+#: includes/class-shipany-wc-method-ecs-asia.php:358
+msgid "Tracking Info Description Text"
+msgstr "運單追蹤說明文字"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:273
+#: includes/class-shipany-wc-method-ecs-asia.php:363
+msgid "Customize tracking note description text in the order details page."
+msgstr "在訂單詳細資料頁面自訂運單追蹤資訊文本。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:278
+#: includes/class-shipany-wc-method-ecs-asia.php:368
+msgid "ShipAny Shipment Order Ref Suffix"
+msgstr "ShipAny 運單參考後綴"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:280
+#: includes/class-shipany-wc-method-ecs-asia.php:370
+msgid ""
+"Specify a string to be appended to WooCommerce Order ID to form the Order "
+"Ref when an order is created onto ShipAny. This is particularly useful if "
+"you have multiple WooCommerce stores connected."
+msgstr "在 ShipAny 創建訂單時，指定要加到 WooCommerce 訂單 ID 後面以形成參考編號的字符串。如您連接了多個 WooCommerce 商店，這可有助區分來自不同商店的訂單。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:382
+msgid "Enable Locker/Store List"
+msgstr "啟用自取點列表"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:385
+msgid "Follow this instruction to enable locker/store list on your store"
+msgstr "請按照這裡的指示，在您的商店啟用自取點列表。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:390
+msgid "Locker/Store List Display Name"
+msgstr "自取點列表顯示名稱"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:395
+msgid "Customize shipping method display name in checkout page."
+msgstr "自訂結帳頁面中運輸方式的顯示名稱。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:400
+msgid "Locker/Store List Change Address Button Display Name"
+msgstr "自取點列表更改地址按鈕顯示名稱"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:405
+msgid "Customize the display name of Change Address button in checkout page."
+msgstr "自訂結帳頁面中更改地址按鈕的顯示名稱。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:410
+msgid "Write Locker/Store Address Only To Shipping Address"
+msgstr "自取點地址僅寫入送貨地址欄"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:414
+msgid "By default, the selected Locker/Store address will be written to both the shipping address and billing address during checkout. Enable this if you want it to be only written to shipping address."
+msgstr "已選擇的自取點地址在結賬時會預設寫入賬單地址和送貨地址。如果您只想將其寫入送貨地址欄內，請在此處打勾。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:418
+msgid "Locker/Store List Minimum Checkout Amount for Free Shipping"
+msgstr "自取點列表免費送貨的最低結帳金額"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:422
+msgid "If specified, the shipping fee will be 0 as long as the checkout value reaches this amount.<br><br>Otherwise, the shipping fee follows the Cost defined in Local pickup settings."
+msgstr "如有提供，只要結帳金額達到這裡指定的金額，運費將為0。否則，運費將跟從本地自取設定裡的費用。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:427
+msgid "Locker/Store List covers Macau"
+msgstr "自取點列表包括澳門"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:431
+msgid ""
+"Enable this if you want the Locker/Store List to cover Macau."
+msgstr "如您希望自取點列表包括澳門，請勾選此處。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:435
+msgid "Locker/Store Address Length Limit"
+msgstr "自取點地址長度限制"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:439
+msgid ""
+"Specify the length limit (in number of characters) of Locker/Store addresses "
+"to be prefilled to checkout form. This may be necessary if there are other "
+"plugins consuming the checkout form but requiring a specific address length "
+"limit."
+msgstr "指定自取點地址在結帳頁面中預填的長度限制（以字符數計），這在結帳頁面安裝了其他插件需要特定的地址長度限制時需要設定。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:443
+msgid "Active Notification"
+msgstr "主動通知"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:446
+msgid "Grant permission to ShipAny for notifying WooCommerce the shipment order statuses and tracking numbers."
+msgstr "授予 ShipAny 權限以通知 WooCommerce 訂單的運送狀態和追蹤號碼。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:452
+msgid ""
+"Press the button to refresh the sender address. You might need to do this "
+"after updating Pickup Address Settings in ShipAny Portal."
+msgstr ""
+"按此按鈕可刷新寄件人地址。 在 ShipAny 中更新取件地址設置後，您可能需要執行此"
+"操作。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:457
+msgid "Always overwrite shipment order weight to 1kg"
+msgstr "始終將裝運訂單重量改寫為 1kg"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:461
+msgid ""
+"By default, the shipment order weight is calculated based on the product "
+"weight. Please tick here if you want to always overwrite shipment order "
+"weight to 1kg. The shipment will be charged based on logistics courier final "
+"measurement."
+msgstr ""
+"默認情況下，發貨訂單重量是根據產品重量計算的。 如果您想始終將裝運訂單重量改寫"
+"為 1 公斤，請勾選此處。 運費以物流快遞最終測量為準。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:465
+msgid "Default Courier Additional Service"
+msgstr "默認速遞公司額外服務"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:467
+msgid "Please select the default courier additional service."
+msgstr "請選擇默認速遞公司額外服務。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:473
+msgid "Paid by Receiver"
+msgstr "到付"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:477
+msgid ""
+"Please tick here if you want the shipping fee to be paid by the receiver."
+msgstr "如果您希望運費由收件人支付，請勾選此處。"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:579
+msgid "Could not reset connection: "
+msgstr "無法重置連接："
+
+#: includes/class-shipany-wc-order-ecs-asia.php:58
+msgid "Package description for customs (50 characters max): "
+msgstr "海關包裹描述（最多 50 個字符）："
+
+#: includes/class-shipany-wc-order-ecs-asia.php:197
+msgid "The package description cannot be empty!"
+msgstr "包裹描述不能為空！"
+
+#: includes/class-shipany-wc-order-ecs-asia.php:305
+#: includes/class-shipany-wc-order-ecs-asia.php:738
+msgid "ShipAny Order Created"
+msgstr "ShipAny 訂單已創建"
+
+#: includes/class-shipany-wc-order-ecs-asia.php:306
+msgid "ShipAny Order Number"
+msgstr "ShipAny 訂單編號"
+
+#: includes/class-shipany-wc-order-ecs-asia.php:498
+#: includes/class-shipany-wc-order-ecs-asia.php:506
+msgid ""
+"No orders selected for bulk action, please select orders before performing "
+"the action."
+msgstr "沒有為批量操作選擇訂單，請在執行操作前選擇訂單。"
+
+#: includes/class-shipany-wc-order-ecs-asia.php:737
+msgid "ShipAny Order Not Created"
+msgstr "ShipAny 訂單未創建"
+
+#: includes/shipany-api/abstract-shipany-api-rest.php:347
+#, php-format
+msgid "The value must be %s characters."
+msgstr "該值必須是 %s 個字符。"
+
+#: includes/shipany-api/abstract-shipany-api-rest.php:349
+#, php-format
+msgid "The value must be between %s and %s characters."
+msgstr "該值必須介於 %s 和 %s 個字符之間。"
+
+#: includes/shipany-api/abstract-shipany-api-rest.php:355
+msgid "The value must be a number"
+msgstr "該值必須是數字"
+
+#: includes/shipany-api/class-shipany-api-auth-rest.php:147
+msgid "The \"Cliend Id\" or \"Client Secret\" is empty."
+msgstr "\"客戶端 ID\"或\"客戶端密鑰\"為空。"
+
+#: includes/shipany-api/class-shipany-api-auth-rest.php:175
+msgid "Authentication failed: Please check API Token in the shipping settings"
+msgstr "身份驗證失敗：請檢查發貨設置中的 API 密鑰"
+
+#: includes/shipany-api/class-shipany-api-ecs-asia.php:642
+#: includes/shipany-api/class-shipany-api-rest-label.php:97
+msgid "Invalid file path!"
+msgstr "文件路徑無效！"
+
+#: includes/shipany-api/class-shipany-api-rest-label.php:135
+msgid "Shop \"Order ID\" is empty!"
+msgstr "商店\"訂單編號\"為空！"
+
+#: includes/shipany-api/class-shipany-api-rest-label.php:139
+msgid "Shop \"Weight Units of Measure\" is empty!"
+msgstr "商店\"重量單位\"為空！"
+
+#: includes/shipany-api/class-shipany-api-rest-label.php:163
+msgid "Shipping \"City\" is empty!"
+msgstr "運送城市為空！"
+
+#: shipany-woocommerce.php:477
+msgid "Connection Success!"
+msgstr "連接成功！"
+
+#: shipany-woocommerce.php:493
+#, php-format
+msgid "Connection Failure: %s Make sure to save the settings before testing the connection. "
+msgstr "連接失敗：%s 確保在測試連接之前保存設置。"
+
+#: shipany-woocommerce.php:661
+msgid "requires WooCommerce to be installed and activated!"
+msgstr "需要安裝並激活 WooCommerce！"
+
+#: includes/class-shipany-wc-method-ecs-asia.php:48
+msgid "Register now"
+msgstr "立即註冊"
+
+#: includes/abstract-shipany-wc-order.php:811
+msgid "Cannot change courier since Locker/Store List is selected by customer"
+msgstr "由於客戶已選擇櫃檯/店鋪清單，因此無法更速遞公司。"
+
+#: includes/abstract-shipany-wc-order.php:1132
+msgid "Order Status:"
+msgstr "訂單狀態："
+
+#: includes/abstract-shipany-wc-order.php:811
+msgid "Courier Service Plan:"
+msgstr "速遞公司服務："
+
+msgid "Order Created"
+msgstr "已建立訂單"
+
+msgid "Delivery In Progress"
+msgstr "派送中"
+
+msgid "Order Delivered"
+msgstr "已簽收"
+
+msgid "Failed To Deliver (Pending Retry)"
+msgstr "未能派送 等待重試"
+
+msgid "Failed To Deliver Returning To Sender"
+msgstr "未能派送 正返回給寄件人"
+
+msgid "Returning In Progress"
+msgstr "退回中"
+
+msgid "Return Cancelled (Scheduling Next Delivery)"
+msgstr "取消退回寄件（等待再次派送）"
+
+msgid "Order Returned"
+msgstr "已退回"
+
+msgid "Abnormal"
+msgstr "異常"
+
+msgid "Arrived Transit Point"
+msgstr "到達中轉站"
+
+msgid "Ready For Shipment"
+msgstr "已裝車"
+
+msgid "Collected By Courier"
+msgstr "速遞公司已收取貨件"
+
+msgid "Pickup Request Sent"
+msgstr "已傳送送貨要求"
+
+msgid "Order Drafted"
+msgstr "已草擬"
+
+msgid "Order Processing"
+msgstr "訂單處理中"
+
+msgid "Preparing For Pickup"
+msgstr "準備取件"
+
+msgid "Pickup Request Received"
+msgstr "已收到取件請求"
+
+msgid "Ready For Delivery"
+msgstr "準備出貨"
+
+msgid "Order Completed"
+msgstr "訂單已完成"
+
+msgid "Order Cancelled"
+msgstr "訂單已取消"
+
+msgid "Arrival"
+msgstr "到達"
+
+msgid "Returned"
+msgstr "退貨"
+
+msgid "Return Completed"
+msgstr "退貨完成"
+
+msgid "Ready For Pickup"
+msgstr "準備取件"
+
+msgid "Delivered To Locker"
+msgstr "已到智能櫃"
+
+msgid "Delivering To Convenience Store"
+msgstr "已到便利店"
+
+msgid "Shipping"
+msgstr "運送中"
+
+msgid "In Transit"
+msgstr "在途中"
+
+msgid "Delivery Man Reached Destination Nearby"
+msgstr "送貨員到達附近目的地"
+
+msgid "Delivery Man Reached Pickup Point"
+msgstr "送貨員到達取件點"
+
+msgid "Order Assigned To Delivery Man"
+msgstr "分配給送貨員的訂單"
+
+msgid "Delivered To Service Point"
+msgstr "已到自提點"
+
+msgid "Order Missorted"
+msgstr "錯誤分發郵件"
+
+msgid "Collected By Customer"
+msgstr "客人已取件"
+
+msgid "Return To Warehouse"
+msgstr "退貨到處理中心"
+
+msgid "Waiting To Be Collected"
+msgstr "貨件正等待攬收"
+
+msgid "Order Cancelled Before Collection"
+msgstr "物流公司取消訂單"
+
+msgid "Custom Clearance In Progress"
+msgstr "清關中"
+
+msgid "Custom Clearance Release"
+msgstr "清關已完成"
+
+msgid "Departed Transit Point"
+msgstr "已離開中轉點"
+
+msgid "Under Processing"
+msgstr "訂單處理中"
+
+msgid "Please enter description"
+msgstr "請輸入描述"
+
+msgid "Tracking note prefix in order details page"
+msgstr "訂單詳細資料頁面中的追蹤單前綴"
+
+msgid "Display name in checkout page"
+msgstr "結帳頁面中的顯示名稱"
+
+msgid "Change Address Button Display Name in checkout page"
+msgstr "結帳頁面中的更改地址按鈕顯示名稱"
+
+msgid "Minimum checkout amount for free shipping"
+msgstr "免費運送的最低結帳金額"
+
+msgid "Additional Requirements"
+msgstr "特別要求"
+
+msgid "Lalabag"
+msgstr "Lalamove 專用保溫袋"
+
+msgid "Fragile Goods"
+msgstr "易碎品"
+
+msgid "Tailgate"
+msgstr "升降尾門"
+
+msgid "Covered Truck"
+msgstr "棚式/箱式 貨車"
+
+msgid "Flatbed Cart"
+msgstr "租用車仔"
+
+msgid "Lalamove Motorcycle"
+msgstr "Lalamove 機車"
+
+msgid "Lalamove SUV"
+msgstr "Lalamove 廂型貨車"
+
+msgid "Lalamove Van"
+msgstr "Lalamove 客貨車"
+
+msgid "Lalamove Courier"
+msgstr "Lalamove 速遞專員"
+
+msgid "Lalamove Walker"
+msgstr "Lalamove 步兵"
+
+msgid "Lalamove Truck (1.75 ton)"
+msgstr "Lalamove 1.75噸貨車"
+
+msgid "Lalamove Truck (3.3 ton)"
+msgstr "Lalamove 3.3噸貨車"
+
+msgid "Lalamove Truck (5.5 ton)"
+msgstr "Lalamove 5.5噸貨車"
+
+msgid "SF Standard Delivery (Domestic)"
+msgstr "順豐本地宅配"
+
+msgid "SF Speedy Express (CNHKMO)"
+msgstr "順豐中港澳快遞"
+
+msgid "SF Economy Express (International)"
+msgstr "順豐國際特惠快遞"
+
+msgid "SF Standard Express (International)"
+msgstr "順豐國際標準快遞"
+
+msgid "TA-Q-BIN"
+msgstr "常溫宅急便"
+
+msgid "Cool TA-Q-BIN"
+msgstr "低溫宅急便"
+
+msgid "SF Express"
+msgstr "順豐速運"
+
+msgid "Yamato"
+msgstr "黑貓宅急便"
+
+msgid "ZTO Express"
+msgstr "中通快遞"
+
+msgid "Hongkong Post"
+msgstr "香港郵政"
+
+msgid "HAVI (Cold Chain)"
+msgstr "新夏暉(冷運)"
+
+msgid "Grant Permission"
+msgstr "授予權限"
+
+msgid "Show Courier Tracking Number"
+msgstr "顯示快遞追踪號碼"
+
+msgid "Enable this if you want to show courier tracking number in the order details page"
+msgstr "如果您想在訂單詳細信息頁面中顯示快遞追踪號碼，請啟用此選項"
+
+msgid "Use Product Variants as Item Description"
+msgstr "使用產品變體作為項目描述"
+
+msgid "Please tick here if you want to use Product Variants (e.g. color, size… etc.) as Item Description when orders are created onto ShipAny. This is particularly useful if your operation team rely on such info in ShipAny packing slip."
+msgstr "請在此處打勾，如果您希望在訂單生成到ShipAny時將產品變體(例如顏色、尺寸等)用作項目描述。如果您的操作團隊在ShipAny裝箱單中依賴此類信息，這將非常有用"
+
+msgid "Hong Kong"
+msgstr "香港"
+
+msgid "Taiwan"
+msgstr "台灣"
+
+msgid "Thailand"
+msgstr "泰國"
+
+msgid "The quoted price is just an estimated value."
+msgstr "報價僅為估計值。"
+
+msgid "The old waybill is <u><b>NO LONGER VALID</b></u>. Please download the new waybill for shipment."
+msgstr "舊的運單<u><b>已失效</b></u>。請下載新的運單進行運送。"
+
+msgid "Auto-create Shipment Order"
+msgstr "自動創建運單"
+
+msgid "Order Status triggering Shipment Order Auto-creation"
+msgstr "觸發自動生成運單的訂單狀態"
+
+msgid "Show Shipping Address in Local Pickup Order Notification Emails"
+msgstr "在自行取貨的訂單通知電郵顯示送貨地址"
+
+msgid "Enable this if you want to show Shipping Address in Local Pickup order notification emails."
+msgstr "如您想在自行取貨訂單的通知電郵中顯示送貨地址以供自取，請勾選此處。"
+
+msgid "ANY"
+msgstr "任何"
+
+msgid "FamilyMart C2C"
+msgstr "全家店到店"
+
+msgid "Familymart"
+msgstr "全家"
+
+msgid "FamilyMart"
+msgstr "全家"
+
+msgid "Please note that the Locker/Store List feature is not enabled in your ShipAny account."
+msgstr "請注意：您的ShipAny 帳戶並未啟用自取點列表功能。"
+
+msgid "Self Drop-off"
+msgstr "自寄"
+
+msgid "Self Drop-off:"
+msgstr "自寄："

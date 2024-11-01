@@ -1,0 +1,58 @@
+.shipany-dialog-overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    display: block;
+    width: 100vw;
+    height: 200vh;
+    margin: auto;
+    background: rgba(0,0,0,0.45);
+    z-index: 2000;
+}
+.shipany-dialog{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    min-width: 256px;
+    max-width: 800px;
+    padding: 2rem;
+    border: 0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3), 0 6px 6px rgba(0,0,0,0.3);
+    -webkit-animation: dialog 0.5s;
+    animation: dialog 0.5s;
+    z-index: 2001;
+}
+.shipany-dialog > h2{
+    margin-top: 0;
+}
+
+.shipany-close-btn{
+    border-style: solid;
+    border-color: #dcdcde;
+    border: 0.1px;
+    padding: 12px;
+    cursor: pointer;
+    outline: 0;
+    color: #000000;
+    background-color: #ffffff;
+    float: right;
+
+}
+
+.shipany-yes-btn{
+    border-style: solid;
+    border-color: #dcdcde;
+    border: 0.1px;
+    padding: 12px;
+    cursor: pointer;
+    outline: 0;
+    color: #FFFFFF;
+    background-color: #2271b1;
+    float: right;
+    margin-left: 10px;
+}
